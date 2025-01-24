@@ -1,24 +1,19 @@
-Handwritten Character Recognition with Semi-Supervised Learning and GUI
+Handwritten Character Recognition Using Semi-Supervised Learning and a GUI
+This project introduces a Convolutional Neural Network (CNN) designed for recognizing handwritten characters, incorporating a semi-supervised learning approach. By utilizing both labeled and unlabeled data through pseudo-labeling, the model achieves improved accuracy and better generalization to new inputs. A confidence-based filtering mechanism ensures the quality of pseudo-labels, enhancing the training process and overall model performance.
 
-This project presents a Convolutional Neural Network (CNN) model for recognizing handwritten characters, implemented with a semi-supervised learning approach. The model leverages both labeled and unlabeled data to improve accuracy through pseudo-labeling, allowing it to generalize more effectively to new inputs. We employ a confidence-based filtering technique to select high-quality pseudo-labels, enhancing the training process and overall performance.
+Key Features
+Semi-Supervised Learning: Leverages pseudo-labeling on unlabeled data to maximize data utilization and enhance accuracy.
 
-Features
+Confidence Filtering: Implements a thresholding mechanism to include only high-confidence predictions as pseudo-labels, minimizing noise in the training process.
 
-1.Semi-Supervised Learning: Uses pseudo-labeling on unlabeled data to boost the model’s accuracy and make the most of available data.
+Algorithm Flexibility: Provides a modular code structure, facilitating experimentation with alternative approaches like Vision Transformers, RNNs, and other architectures.
 
-2.Confidence Filtering: Applies a confidence threshold to ensure only high-confidence predictions are used, reducing noise in the pseudo-labeled dataset.
-
-3.Alternative Algorithm Exploration: The code structure allows for easy experimentation with alternative algorithms, and future work may explore Vision Transformers, RNNs, and more.
-
-4.Real-Time GUI: A user-friendly graphical interface enables real-time character input, enhancing the user experience and providing immediate feedback on model predictions.
+Interactive GUI: Features a user-friendly graphical interface for real-time character input, enabling instant feedback on predictions and enhancing usability.
 
 Getting Started
+The model can be trained and tested using the MNIST dataset, easily downloadable from Kaggle, to enable quick experimentation with handwritten digit recognition. The code is designed to be adaptable, allowing seamless application to other character datasets.
 
-To train and test the model, the MNIST dataset can be downloaded from Kaggle, providing a straightforward way to experiment with handwritten digit recognition. The code is modular, allowing easy adaptation for other character datasets as well.
-
-Future Work
-
-Real-Time Application Enhancements: Researching further methods to improve real-time character recognition, including real-time data augmentation and preprocessing.
-Alternative Architectures: Experimenting with advanced architectures like Vision Transformers and LSTM-based models to explore improvements over CNN.
-Deployment on Edge Devices: Investigating model compression and optimization for edge devices to support mobile and low-power applications.
-This repository is ideal for those interested in semi-supervised learning, computer vision, and interactive machine learning applications. It combines a robust deep learning approach with an interactive GUI, providing a comprehensive solution for handwritten character recognition tasks.
+Future Directions
+Enhanced Real-Time Applications: Exploring advanced methods like real-time data augmentation and preprocessing to improve character recognition in real-world settings.
+Alternative Architectures: Investigating modern approaches, including Vision Transformers and LSTM-based models, to identify potential improvements over CNNs.
+Edge Deployment: Focusing on model optimization and compression to support deployment on edge devices, enabling mobile and low-power use cases.
