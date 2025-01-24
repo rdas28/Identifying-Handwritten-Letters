@@ -1,7 +1,8 @@
 Handwritten Character Recognition Using Semi-Supervised Learning and a GUI
 This project introduces a Convolutional Neural Network (CNN) designed for recognizing handwritten characters, incorporating a semi-supervised learning approach. By utilizing both labeled and unlabeled data through pseudo-labeling, the model achieves improved accuracy and better generalization to new inputs. A confidence-based filtering mechanism ensures the quality of pseudo-labels, enhancing the training process and overall model performance.
 
-Key Features
+Key Features:
+
 Semi-Supervised Learning: Leverages pseudo-labeling on unlabeled data to maximize data utilization and enhance accuracy.
 
 Confidence Filtering: Implements a thresholding mechanism to include only high-confidence predictions as pseudo-labels, minimizing noise in the training process.
