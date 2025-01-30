@@ -18,3 +18,7 @@ Future Directions
 Enhanced Real-Time Applications: Exploring advanced methods like real-time data augmentation and preprocessing to improve character recognition in real-world settings.
 Alternative Architectures: Investigating modern approaches, including Vision Transformers and LSTM-based models, to identify potential improvements over CNNs.
 Edge Deployment: Focusing on model optimization and compression to support deployment on edge devices, enabling mobile and low-power use cases.
+
+Contributors :
+Riddhi Das - A20582829 (rdas8@hawk.iit.edu)
+Madhur Gusain - A20572395 (mgusain@hawk.iit.edu)
