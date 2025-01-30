@@ -21,4 +21,5 @@ Edge Deployment: Focusing on model optimization and compression to support deplo
 
 Contributors :
 Riddhi Das - A20582829 (rdas8@hawk.iit.edu)
+
 Madhur Gusain - A20572395 (mgusain@hawk.iit.edu)
